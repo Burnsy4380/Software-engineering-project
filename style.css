@@ -1,3 +1,55 @@
+h1 {
+  text-align: center;
+  color: rgba(100, 70, 220, 0.70);
+  font-family: Arvo, serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.70);
+  font-family: "Cascadia Code", monospace;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+footer {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.70);
+  font-family: "Cascadia Code", monospace;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  padding: 50px 25px 50px 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  background-color: rgba(100, 70, 220, 0.70);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: Arvo, serif;
+  font-weight: 700;
+  display: block;
+  margin: 20px auto;
+  width: 240px;
+  padding: 5px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,4 +71,28 @@ ul li a:hover {
 
 ul li a.active {
   background-color: #04AA6D;
+}
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
 }
