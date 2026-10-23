@@ -1,3 +1,3 @@
 # Software-engineering-project
 // react software project
-// current version 06.10.2026 
+// current version 23.10.2026

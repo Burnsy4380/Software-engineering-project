@@ -1,14 +1,15 @@
 h1 {
   text-align: center;
-  color: rgba(100, 70, 220, 0.70);
+  color: #6446dc;
+  /*darker color: #1d0e5b*/
   font-family: Arvo, serif;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 60px;
 }
 
 h2 {
   text-align: center;
-  color: rgba(0, 0, 0, 0.70);
+  color: #1d0e5b;
   font-family: "Cascadia Code", monospace;
   font-weight: 400;
   font-size: 24px;
@@ -16,61 +17,72 @@ h2 {
 
 footer {
   text-align: center;
-  color: rgba(0, 0, 0, 0.70);
+  color: #1d0e5b;
   font-family: "Cascadia Code", monospace;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 body {
   margin: 0;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-div {
-  padding: 50px 25px 50px 25px;
-  background-color: rgb(255, 255, 255);
+  background-color: #bcacff;
+  padding: 20px;
 }
 
 button {
-  background-color: rgba(100, 70, 220, 0.70);
+  background-color: #6446dc;
   border: none;
-  color: white;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   font-family: Arvo, serif;
   font-weight: 700;
   display: block;
   margin: 20px auto;
-  width: 240px;
-  padding: 5px;
+  width: 220px;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: #1d0e5b;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  background-color: #333333;
+  padding: 6px 10px;
+  background-color: #1d0e5b;
   display: flex;
+  font-family: Arvo, serif;
+  border-radius: 30px;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
 }
 
 ul li a {
   display: block;
-  color: white;
-  padding: 14px 16px;
+  color: #ffffff;
   text-decoration: none;
+  font-family: Arvo, serif;
+  padding: 6px 10px;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #0f0b1f;
+  border-radius: 30px;
 }
 
 ul li a.active {
-  background-color: #04AA6D;
+  background-color: #6446dc;
+  border-radius: 30px;
 }
 
 .arvo-regular {
@@ -83,16 +95,4 @@ ul li a.active {
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: normal;
-}
-
-.arvo-regular-italic {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.arvo-bold-italic {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: italic;
 }
