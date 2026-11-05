@@ -11,14 +11,14 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, push } from "firebase/database";
 let config = {
-    apiKey: "AIzaSyAoIGp6SMAP3CUh7GNzqn-r4mvmq6X2svs",
-  authDomain: "software-engineering-pro-3799f.firebaseapp.com",
-  databaseURL: "https://software-engineering-pro-3799f-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "software-engineering-pro-3799f",
-  storageBucket: "software-engineering-pro-3799f.firebasestorage.app",
-  messagingSenderId: "519755278302",
-  appId: "1:519755278302:web:01034b9edce7e1ae4d5f4f",
-  measurementId: "G-0BRW7QJ1ML"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 let app = initializeApp(config);
